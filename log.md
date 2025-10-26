@@ -14,3 +14,12 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Updated the BIOS to the latest version, configured for UEFI-only boot mode, disabled Secure Boot for Proxmox compatibility, verified that SATA peripherals were in AHCI mode, and booted into the ProxmoxVE installation that I had on a flash drive.
 * Reserved a static IPv4 address for the server to use on my home router.
 * Chose a hostname for the server.
+
+## 10/26/2025
+* Completed installation of ProxmoxVE.
+* Verified that ProxmoxVE was remotely accessible by directly accessing the static IP-address of the server. Server can now be configured remotely; server can now be stashed away and left powered on.
+* Attempted to move server PC to permanent location. Dropped PC during attempt. Broke PC-cart (used for elevation off carpet floor) upon impact. Broke piece of window blind adjacent to permanent location.
+* Opened server PC to visually diagnose any damages; none found. Checked retention of CPU cooler; cooler was still tightly secured.
+* Booted server PC to BIOS to monitor CPU temps to verify that the cooler was still properly making contact with CPU IHS; temps were still sub 30 degrees Celsius.
+* Made a second attempt to move server PC to permanent location; this attempt was successful.
+* PC was left powered on for further configuration via remote access. 
