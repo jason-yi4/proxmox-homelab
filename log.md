@@ -22,4 +22,7 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Opened server PC to visually diagnose any damages; none found. Checked retention of CPU cooler; cooler was still tightly secured.
 * Booted server PC to BIOS to monitor CPU temps to verify that the cooler was still properly making contact with CPU IHS; temps were still sub 30 degrees Celsius.
 * Made a second attempt to move server PC to permanent location; this attempt was successful.
-* PC was left powered on for further configuration via remote access. 
+* PC was left powered on for further configuration via remote access.
+* game-server VM was created and successfully enabled.
+* Realized that the wrong version of Ubuntu LTS was used with the game-server VM. Ubuntu Desktop LTS was used instead of the headless Ubuntu Server LTS as intended. game-server VM was recreated using proper disc image of Ubuntu Server LTS.
+* Additional static IP-addresses were reserved for the game-server VM and file-server VM. Realized that I should've done this beforehand.
