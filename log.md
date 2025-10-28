@@ -36,3 +36,5 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Wireguard VPN was successfully installed directly into Proxmox host using a script by GitHub user [angristan](https://github.com/angristan/): [wireguard-install script](https://github.com/angristan/wireguard-install).
 * One user was added to the VPN tunnel, my personal laptop, an *HP Envy x360 14" es0033dx*. Wireguard client was installed onto my personal laptop and VPN functionality was verified by remotely accessing the Proxmox host using the VPN IP-address.
 * Other virtual machines were confirmed accessible after connecting via the VPN tunnel by using their regular local (private) IPv4 addresses.
+* Reformatted two 1TB internal HDDs using CLI *fdisk* commands.
+* Created ZFS Pool in RAID 1 (mirroring) for full accessibility across Proxmox host.
