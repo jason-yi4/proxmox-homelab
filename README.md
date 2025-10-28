@@ -13,6 +13,11 @@ This is a full documentation and history of a personal homelab server project th
 * Configure two or more HDDs in RAID 1 (mirroring) for data redundancy in the event of a drive failure. This is not acting in place of a proper backup cycle, but rather solely as an extra form of protection against loss of data. Backups will still be done to external drives for long-term cold storage.
 * Set up a VPN for secure access to the server outside of my local home network via *ssh* (e.g. when I'm on campus).
 
+<!--Milestone Overview-->
+## Milestones
+1) game-server | completed on 10/27/2025
+2) VPN | completed on 10/28/2025
+
 <!--Navigation for repository-->
 ## Documentation Overview
 There are two files in this repository for additional in-depth information about this project.
