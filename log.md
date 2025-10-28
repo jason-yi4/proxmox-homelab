@@ -27,3 +27,8 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Realized that the wrong version of Ubuntu LTS was used with the game-server VM. Ubuntu Desktop LTS was used instead of the headless Ubuntu Server LTS as intended. game-server VM was recreated using proper disc image of Ubuntu Server LTS.
 * Additional static IP-addresses were reserved for the game-server VM and file-server VM. Realized that I should've done this beforehand.
 * game-server was successfully port-forwarded and is now fully setup.
+
+## 10/27/2025
+* Configured Ubuntu Server LTS .bashrc file to make directories more readable by adding a background color.
+* Tested public access to game servers hosted on the game-server VM by having a friend from another U.S. state join a Minecraft server running on the game-server VM. Connection was successful and stable for a 1-hour session.
+* Monitored system hardware usage while running Minecraft server, usage was within acceptable levels (less than 80% usage of the two allocated vCPU cores on average and less than 30% of allocated RAM used on average).
