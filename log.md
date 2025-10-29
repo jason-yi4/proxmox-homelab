@@ -38,3 +38,11 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Other virtual machines were confirmed accessible after connecting via the VPN tunnel by using their regular local (private) IPv4 addresses.
 * Reformatted two 1TB internal HDDs using CLI *fdisk* commands.
 * Created ZFS Pool in RAID 1 (mirroring) for full accessibility across Proxmox host.
+
+## 10/28/2025
+* Discrepancy found from previous report regarding VPN access. The VPN tunnel was not connected properly.
+* The verification of connectivity performed yesterday was done while still under the same local network as the Proxmox host, which gave a false positive response. Today, the VPN connectivity was tested at my college campus and the VPN server could not receive any bytes from the client (my laptop); there was no *handshake* at all between client and server.
+* Researched on the topic to troubleshoot:
+  * Determined that I must manually edit the wg0 *.conf* file Endpoint to use my home network's public IP-address as it is still using the Proxmox client's private IP-address, which is inaccessible outside of my local network.
+  * Determined that I must open a singular UDP port in my router admin settings **exclusively to Wireguard** to allow the Proxmox host to send packets over open internet. Wireguard in this case is handling all security once packets are sent from my home network, which is ideal as Wireguard does not respond to any requests unless the public and private keys match.
+  * Will handle this issue when I get home from classes.
