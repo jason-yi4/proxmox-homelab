@@ -3,7 +3,7 @@
 
 ### Start Date: October 2025
 
-This is a full documentation and history of a personal homelab server project that I started in my 3rd year of university. I began researching about hypervisors, virtualization, VMs, and server administration after a group member in a  course I took piqued my interest. Prior to this project, I had never been exposed to virtualization, RAID configurations, hypervisors, or homelabbing as a whole. I did have prior experience with UNIX commands and file structure, Linux Mint Cinnamon Edition, networking protocols and IP-reservations, basic firewall configuration, PC building and computer architecture, and rudimentary file storage using Samba.
+This is a full documentation and history of an ongoing personal homelab server project that I started in my 3rd year of university. I began researching about hypervisors, virtualization, VMs, and server administration after a group member in a  course I took piqued my interest. Prior to this project, I had never been exposed to virtualization, RAID configurations, hypervisors, or homelabbing as a whole. I did have prior experience with UNIX commands and file structure, Linux Mint Cinnamon Edition, networking protocols and IP-reservations, basic firewall configuration, PC building and computer architecture, and rudimentary file storage using Samba.
 
 <!--Goals Overview-->
 ## Goals
@@ -16,7 +16,6 @@ This is a full documentation and history of a personal homelab server project th
 <!--Milestone Overview-->
 ## Milestones
 1) game-server | completed on 10/27/2025
-2) VPN | completed on 10/28/2025
 
 <!--Navigation for repository-->
 ## Documentation Overview
