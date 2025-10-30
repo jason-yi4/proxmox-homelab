@@ -46,6 +46,8 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
   * Determined that I must manually edit the wg0 *.conf* file Endpoint to use my home network's public IP-address as it is still using the Proxmox client's private IP-address, which is inaccessible outside of my local network.
   * Determined that I must open a singular UDP port in my router admin settings **exclusively to Wireguard** to allow the Proxmox host to send packets over open internet. Wireguard in this case is handling all security once packets are sent from my home network, which is ideal as Wireguard does not respond to any requests unless the public and private keys match.
   * Will handle this issue when I get home from classes.
+
+## 10/29/2025
 * Continued configuration of VPN:
   * Forwarded "listening" port of the Wireguard VPN *.conf* file within the Proxmox host through my home router under the *User Datagram Protool* (UDP).
     * Was initially concerned about opening a port to public internet access, but learned that Wireguard has end-to-end encryption that hides the open port from any scans or clients that do not have a valid private key. VPN is confirmed as a secure connection method.
@@ -54,3 +56,6 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
   * Tested VPN access by connecting laptop to iPhone mobile hotspot.
   * Verified that the VPN was both sending **and receiving** bits.
   * Verified that I was able to access the Proxmox host and game-server VM while under the VPN (file-server VM not created at this point).
+
+## 10/30/2025
+* 
