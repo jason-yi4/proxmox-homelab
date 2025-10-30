@@ -16,6 +16,7 @@ This is a full documentation and history of an ongoing personal homelab server p
 <!--Milestone Overview-->
 ## Milestones
 1) game-server | completed on 10/27/2025
+2) VPN | completed on 10/29/2025
 
 <!--Navigation for repository-->
 ## Documentation Overview
