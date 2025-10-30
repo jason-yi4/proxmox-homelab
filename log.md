@@ -38,7 +38,7 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Other virtual machines were confirmed accessible after connecting via the VPN tunnel by using their regular local (private) IPv4 addresses.
 * Reformatted two 1TB internal HDDs using CLI *fdisk* commands.
 * Created ZFS Pool in RAID 1 (mirroring) for full accessibility across Proxmox host.
-
+  
 ## 10/28/2025
 * Discrepancy found from previous report regarding VPN access. The VPN tunnel was not connected properly.
 * The verification of connectivity performed yesterday was done while still under the same local network as the Proxmox host, which gave a false positive response. Today, the VPN connectivity was tested at my college campus and the VPN server could not receive any bytes from the client (my laptop); there was no *handshake* at all between client and server.
@@ -58,4 +58,9 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
   * Verified that I was able to access the Proxmox host and game-server VM while under the VPN (file-server VM not created at this point).
 
 ## 10/30/2025
-* 
+* Created VM of file-server using Debian Stable 13.1.0 image.
+* Created a third static IP-address reservation on home network for the file server.
+* Passed ZFS pool (RAID 1 drives) to file-server VM to allow VM access to drives.
+* Partitioned, formatted, and mounted ZFS pool. Edited */etc/fstab* file to auto-mount drive on startup based on its UUID.
+* Created a *symlink* in the */home* directory to the */mnt/*\[drive name\] directory for quick and intuitive access.
+* Confirmed that both VMs and the Proxmox host client were accessible via the Wireguard VPN service while on my campus network instead of my home network.
