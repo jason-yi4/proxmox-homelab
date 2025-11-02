@@ -10,7 +10,7 @@ Below documents the original hardware specifications of this project as well as 
 | RAM | G.Skill | DDR4 | 2017 | FlareX | 16 GB | 2400 MT/s |
 | Motherboard | MSI | 6th/7th Gen Intel CPUs | 2017 | B250 PC Mate | N/A | N/A |
 | GPU | Intel | 7th/8th/9th/10th Gen Intel CPUs | 2016 | HD Graphics 630 | 192 Shading Units | 350 MHz |
-| Storage | Samsung | 6th Gen | 2021 | 870 Evo (SSD) | 500 GB | 560 MB/s Read - 530 MB/s Write |
+| Storage | Samsung | N/A | 2018 | 860 Evo (SSD) | 500 GB | 550 MB/s Read - 520 MB/s Write |
 | Storage | Toshiba | N/A | 2015 | HDWD110 (HDD) | 1 TB | 170 MB/s Read - 160 MB/s Write |
 | Storage | WD | N/A | 2009 | WD10EADS-65L5B1 (HDD) | 1 TB | 90 MB/s Read - 86 MB/s Write |
 | Wi-Fi Adapter | Gigabyte | Wi-Fi 6E | 2021 | GC-WBAX210 | N/A | Up to 2400 Mbps |
