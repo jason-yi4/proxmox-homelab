@@ -25,6 +25,7 @@ This is a full documentation and history of an ongoing personal homelab server p
 There are two files in this repository for additional in-depth information about this project.
 * See the [Full Progress Log](log.md) for the timeline of updates and progress made on this project.
 * See the [Hardware Specifications Log](hardware_specs.md) for the original full spec-sheet for this project as well as a timeline of all hardware changes.
+* See the [Network Setup Diagram](network_infrastructure.md) for a visualization of the underlying infrastructure of the network.
 
 
 
