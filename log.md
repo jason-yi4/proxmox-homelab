@@ -64,3 +64,9 @@ I ordered a set of USB 2.0 flash drives, a flash drive organizer sleeve (because
 * Partitioned, formatted, and mounted ZFS pool. Edited */etc/fstab* file to auto-mount drive on startup based on its UUID.
 * Created a *symlink* in the */home* directory to the */mnt/*\[drive name\] directory for quick and intuitive access.
 * Confirmed that both VMs and the Proxmox host client were accessible via the Wireguard VPN service while on my campus network instead of my home network.
+
+## 12/8/2025
+* Tested Proxmox built-in *snapshot* feature for VM rollbacks.
+* Researched about proper backup techniques and backing up using Proxmox built-in backup features.
+* Stress-tested game-server by inviting 7 additional users into a Minecraft server for a total of 9 hours.
+  * No issues or latency experienced during test. 
