@@ -8,8 +8,6 @@ This is a full documentation and history of an ongoing personal homelab server p
 <!--Goals Overview-->
 ## Original Goals
 * Set up ProxmoxVE with two VMs running a file-server and a game-hosting-server, respectively.
-  * The file-server will run on Debian Stable (ver. 13.1.0 at the time of writing) for its stability, the fixed release cycle, extensive forums and support, and for exposure to one of the most prevalent Linux distributions used today.
-  * The game-hosting-server will run on Ubuntu LTS (ver. 24.04.3 at the time of writing) for its stability, 5-year fixed release cycle for less frequent updates, extensive forums and support, and for exposure to a different Linux distribution based on Debian.
 * Configure two or more HDDs in RAID 1 (mirroring) for data redundancy in the event of a drive failure. This is not acting in place of a proper backup cycle, but rather solely as an extra form of protection against loss of data. Backups will still be done to external drives for long-term cold storage.
 * Set up a VPN for secure access to the server outside of my local home network via *ssh* (e.g. when I'm on campus).
 
