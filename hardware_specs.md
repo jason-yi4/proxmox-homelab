@@ -18,8 +18,6 @@ Below documents the original hardware specifications of this project as well as 
 
 ### Notes:
 * The SSD is used to store the ProxmoxVE Hypervisor as well as the VMs running on the server.
-* The two HDDs are configured in Raid 1 (Mirroring) through ZFS.
-* The two HDDs serve primarily as storage for the file-server VM.
 * The Wi-Fi adapter is redundant and unnecessary for this project as I have the server directly connected to my router via ethernet. It is kept as a holdover from when this PC was just a secondary office desktop.
 
 ## Hardware Changelog
