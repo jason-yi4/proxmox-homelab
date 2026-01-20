@@ -13,9 +13,9 @@ This is a full documentation and history of an ongoing personal homelab server p
 
 <!--Milestone Overview-->
 ## Milestones
-1) game-server | completed on 10/27/2025
+1) game-server (1st iteration) | completed on 10/27/2025
 2) VPN | completed on 10/29/2025
-3) file-server | completed on 10/30/2025
+3) file-server (1st iteration) | completed on 10/30/2025
 4) RAID 1 (ZFS Pool) | completed on 10/30/2025
 
 <!--Navigation for repository-->
