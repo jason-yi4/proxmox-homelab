@@ -13,6 +13,9 @@ This log file documents all updates and progress reports pertaining to my *Proxm
   3) basic Debian file-server for storing arbitrary documents, game mods, and other files not containing media
   4) Linux environment (distro not chosen yet) for tinkering with software development; test bench
 * Drafted a hardware list needed to upgrade current server rig including additional DDR4 RAM and storage drives.
+* Moved all content contained on VMs to main PC for temporary holding until new VMs are spun up.
+* Deleted current file-server VM with plans to recreate from the ground up.
+  * Destroyed ZFS pool associated with it to start from scratch since new Jellyfin server will use a ZFS pool.
 
 ## 12/8/2025
 * Tested Proxmox built-in *snapshot* feature for VM rollbacks.
