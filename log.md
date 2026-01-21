@@ -3,6 +3,9 @@
 This log file documents all updates and progress reports pertaining to my *Proxmox Homelab Project*. Dates are recorded to be the day that progress was made, not necessarily the day that the report was written. The log is in order from most recent to oldest entry. ~ Jason Yi
 
 <!--Begin logs-->
+## 1/21/2026
+* Created Linux Mint XFCE testing environment VM.
+
 ## 1/20/2026
 * Conducted further research about proper storage configurations for backup cycling.
 * Researched about Jellyfin media servers.
