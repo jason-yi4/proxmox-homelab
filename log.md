@@ -5,6 +5,11 @@ This log file documents all updates and progress reports pertaining to my *Proxm
 <!--Begin logs-->
 ## 1/21/2026
 * Created Linux Mint XFCE testing environment VM.
+* Attempted to create LXC for hosting a Jellyfin service, however was unsuccessful:
+  * Resolved Proxmox host DNS errors
+  * Downloaded Container Templates for Ubuntu 24 LTS and Debian 13.1
+  * Was unable to resolve networking errors that prevented LAN bridge from connecting (vmbr0)
+* Created additional VM running Ubuntu Server 24 LTS to host Jellyfin service. Issues resolved.
 
 ## 1/20/2026
 * Conducted further research about proper storage configurations for backup cycling.
