@@ -3,13 +3,23 @@
 This log file documents all updates and progress reports pertaining to my *Proxmox Homelab Project*. Dates are recorded to be the day that progress was made, not necessarily the day that the report was written. The log is in order from most recent to oldest entry. ~ Jason Yi
 
 <!--Begin logs-->
+## 1/22/2026
+* 735 videos were uploaded using FileZilla and the SFTP protocol over a broadband ethernet connection from the router to the Jellyfin media server.
+* 35 videos were tested for playability, all successfully played either through Direct Play or a form of hardware transcoding.
+ * CPU usage remained below 10% for all videos.
+* Media Libraries renamed, personalized, and organized.
+
 ## 1/21/2026
 * Created Linux Mint XFCE testing environment VM.
 * Attempted to create LXC for hosting a Jellyfin service, however was unsuccessful:
   * Resolved Proxmox host DNS errors
   * Downloaded Container Templates for Ubuntu 24 LTS and Debian 13.1
   * Was unable to resolve networking errors that prevented LAN bridge from connecting (vmbr0)
-* Created additional VM running Ubuntu Server 24 LTS to host Jellyfin service. Issues resolved.
+* Created additional VM running Ubuntu Server 24 LTS to host Jellyfin service.
+* VM ran into issue when attempting to pass iGPU w/ QSV through to the client.
+* Destroyed VM and attempted Jellyfin creation in LXC again, this time was successful.
+* Jellyfin was properly setup with QSV passthrough, ZFS mounted storage, and updated user permissions.
+* Jellyfin media server access was successfully verified from main PC and laptop VPN client.
 
 ## 1/20/2026
 * Conducted further research about proper storage configurations for backup cycling.
