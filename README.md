@@ -17,6 +17,7 @@ This is a full documentation and history of an ongoing personal homelab server p
 2) VPN | completed on 10/29/2025
 3) file-server (1st iteration) | completed on 10/30/2025
 4) RAID 1 (ZFS Pool) | completed on 10/30/2025
+5) Jellyfin media server | completed on 1/22/2026
 
 <!--Navigation for repository-->
 ## Documentation Overview
