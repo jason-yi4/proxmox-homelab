@@ -15,6 +15,7 @@ This log file documents all updates and progress reports pertaining to my *Proxm
   * Utilized same MAC address as deprecated VM to avoid redoing DHCP reservation on home router.
 * Installed OpenJDK 25.
 * Added new user "admin" with sudo privileges to resolve root ssh key issues.
+* Used _ssh-keygen -R (IP)_ to generate new keys for LXC containers due to issues with ssh keys.
 * LXC was successfully finalized, tested both Minecraft servers for access, RAM overhead decreased by significant amount.
 
 ## 1/22/2026
