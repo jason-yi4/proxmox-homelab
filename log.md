@@ -3,6 +3,20 @@
 This log file documents all updates and progress reports pertaining to my *Proxmox Homelab Project*. Dates are recorded to be the day that progress was made, not necessarily the day that the report was written. The log is in order from most recent to oldest entry. ~ Jason Yi
 
 <!--Begin logs-->
+## 2/19/2026
+* Backed up game-server VM contents to main PC desktop using FileZilla and sftp.
+* Destroyed game-server VM.
+* Created new LXC for game server:
+  * 2 cores
+  * 8GB memory
+  * 128GB storage
+  * Ubuntu 22.04 LTS
+  * Unprivileged
+  * Utilized same MAC address as deprecated VM to avoid redoing DHCP reservation on home router.
+* Installed OpenJDK 25.
+* Added new user "admin" with sudo privileges to resolve root ssh key issues.
+* LXC was successfully finalized, tested both Minecraft servers for access, RAM overhead decreased by significant amount.
+
 ## 1/22/2026
 * 735 videos were uploaded using FileZilla and the SFTP protocol over a broadband ethernet connection from the router to the Jellyfin media server.
 * 35 videos were tested for playability, all successfully played either through Direct Play or a form of hardware transcoding.
