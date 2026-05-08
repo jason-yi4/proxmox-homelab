@@ -3,6 +3,16 @@
 This log file documents all updates and progress reports pertaining to my *Proxmox Homelab Project*. Dates are recorded to be the day that progress was made, not necessarily the day that the report was written. The log is in order from most recent to oldest entry. ~ Jason Yi
 
 <!--Begin logs-->
+## 5/8/2026
+* Installed new storage drives
+ * 500 GB Seagate HDD
+ * 1 TB WD HDD
+* Formatted new storage drives to ext4
+* Created file server lxc
+* Mounted 500 GB HDD to file server
+* Ran into issues with ssh login "hanging" for about 20 - 30 seconds.
+ * Was unable to resolve login hanging issue using common online solutions, however LXC operates as normal otherwise.
+
 ## 2/19/2026
 * Backed up game-server VM contents to main PC desktop using FileZilla and sftp.
 * Destroyed game-server VM.
