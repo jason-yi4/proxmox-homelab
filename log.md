@@ -13,6 +13,9 @@ This log file documents all updates and progress reports pertaining to my *Proxm
 * Ran into issues with ssh login "hanging" for about 20 - 30 seconds.
   * Was unable to resolve login hanging issue using common online solutions, however LXC operates as normal otherwise.
 * Changed MOTD for each service. (Personalization)
+* Created new LXC for Immich server
+  * this LXC will be used for personal photos and videos; memories, different from Jellyfin server which is now strictly for video projects and side hobbies
+  * successfully installed Docker, Docker compose plugin, and ran docker compose up -d to start Immich server in background.
 
 ## 2/19/2026
 * Backed up game-server VM contents to main PC desktop using FileZilla and sftp.
