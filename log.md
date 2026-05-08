@@ -12,6 +12,7 @@ This log file documents all updates and progress reports pertaining to my *Proxm
 * Mounted 500 GB HDD to file server
 * Ran into issues with ssh login "hanging" for about 20 - 30 seconds.
   * Was unable to resolve login hanging issue using common online solutions, however LXC operates as normal otherwise.
+* Changed MOTD for each service. (Personalization)
 
 ## 2/19/2026
 * Backed up game-server VM contents to main PC desktop using FileZilla and sftp.
