@@ -20,6 +20,7 @@ This is a full documentation and history of an ongoing personal homelab server p
 5) Jellyfin media server | completed on 1/22/2026
 6) game-server (2nd iteration) | completed on 2/19/2026
 7) file-server (2nd iteration) | completed on 5/8/2026
+8) Immich media server | completed on 5/8/2026
 
 <!--Navigation for repository-->
 ## Documentation Overview
