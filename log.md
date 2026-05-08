@@ -5,13 +5,13 @@ This log file documents all updates and progress reports pertaining to my *Proxm
 <!--Begin logs-->
 ## 5/8/2026
 * Installed new storage drives
- * 500 GB Seagate HDD
- * 1 TB WD HDD
+  * 500 GB Seagate HDD
+  * 1 TB WD HDD
 * Formatted new storage drives to ext4
 * Created file server lxc
 * Mounted 500 GB HDD to file server
 * Ran into issues with ssh login "hanging" for about 20 - 30 seconds.
- * Was unable to resolve login hanging issue using common online solutions, however LXC operates as normal otherwise.
+  * Was unable to resolve login hanging issue using common online solutions, however LXC operates as normal otherwise.
 
 ## 2/19/2026
 * Backed up game-server VM contents to main PC desktop using FileZilla and sftp.
