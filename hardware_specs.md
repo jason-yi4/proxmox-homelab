@@ -22,4 +22,20 @@ Below documents the original hardware specifications of this project as well as 
 
 ## Hardware Changelog
 
-It's quiet in here...
+### 5/8/2026
+| COMPONENT | Brand | Generation | Release Year | Model | Core-Count/Capacity | Base-Clock-Frequency/Transfer-Rate/Read-Write-Speed |
+| :-------: | :---: | :--------: | :----------: | :---: | :-----------------: | :-------------------------------------------------: |
+| CPU | Intel | 7th Gen (Kaby Lake) | 2017 | i5-7600K | Quad-Core | 3.8 GHz |
+| CPU Cooler | Coolermaster | 1st Gen | 2012 | Hyper 212 Evo | N/A | N/A |
+| RAM | G.Skill | DDR4 | 2017 | FlareX | 16 GB | 2400 MT/s |
+| Motherboard | MSI | 6th/7th Gen Intel CPUs | 2017 | B250 PC Mate | N/A | N/A |
+| GPU | Intel | 7th/8th/9th/10th Gen Intel CPUs | 2016 | HD Graphics 630 | 192 Shading Units | 350 MHz |
+| Storage | Samsung | N/A | 2018 | 860 Evo (SSD) | 500 GB | 550 MB/s Read - 520 MB/s Write |
+| Storage | Toshiba | N/A | 2015 | HDWD110 (HDD) | 1 TB | 170 MB/s Read - 160 MB/s Write |
+| Storage | WD | N/A | 2009 | WD10EADS-65L5B1 (HDD) | 1 TB | 90 MB/s Read - 86 MB/s Write |
+| ***Storage*** | ***Seagate*** | ***N/A*** | ***2014*** | ***ST500VT000 (HDD)*** | ***500 GB*** | ***100 MB/s Read - 100 MB/s Write*** |
+| ***Storage*** | ***WD*** | ***N/A*** | ***2014*** | ***WD10JPVX-22JC3T0 (HDD)*** | ***1 TB*** | ***160 MB/s Read - 160 MB/s Write*** |
+| Wi-Fi Adapter | Gigabyte | Wi-Fi 6E | 2021 | GC-WBAX210 | N/A | Up to 2400 Mbps |
+| PSU | Corsair | 3rd Gen | 2021 | CX-650M | 650 W | N/A |
+
+
