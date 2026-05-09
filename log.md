@@ -7,7 +7,7 @@ This log file documents all updates and progress reports pertaining to my *Proxm
 * Successfully backed up all iCloud and locally stored photos from iPhone to Immich server.
 * Disabled iCloud backup on iPhone.
 * Organized Immich albums.
-* Setup client config file for iPhone with new public and private key for accessing the Immich server through the mobile app when away from my home network.
+* Setup WireGuard VPN client config file for iPhone with new public and private key for accessing the Immich server through the mobile app when away from my home network.
 
 ## 5/8/2026
 * Installed new storage drives
