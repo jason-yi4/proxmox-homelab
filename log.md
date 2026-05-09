@@ -3,6 +3,11 @@
 This log file documents all updates and progress reports pertaining to my *Proxmox Homelab Project*. Dates are recorded to be the day that progress was made, not necessarily the day that the report was written. The log is in order from most recent to oldest entry. ~ Jason Yi
 
 <!--Begin logs-->
+## 5/9/2026
+* Successfully backed up all iCloud and locally stored photos from iPhone to Immich server.
+* Disabled iCloud backup on iPhone.
+* Organized Immich albums.
+
 ## 5/8/2026
 * Installed new storage drives
   * 500 GB Seagate HDD
